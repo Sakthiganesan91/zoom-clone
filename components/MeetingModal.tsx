@@ -34,7 +34,7 @@ const MeetingModal = ({
       <DialogContent className="text-white bg-slate-800">
         <div className="">
           <h1 className="leading-[42px] text-2xl font-bold">{title}</h1>
-
+          {children}
           <Button
             className="bg-blue-1 focus-visible:ring-0 focus-visible:ring-offset-0"
             onClick={handleClick}
